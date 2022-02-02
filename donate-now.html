@@ -174,7 +174,7 @@
                                                 <td>
                                                     <div class="caus-nm">
                                                         <img src="images/resource/cus1.jpg" alt="" itemprop="image" />
-                                                        <h2 itemprop="headline"><a href="#" title="" itemprop="url">Dination to Start an Organic Farm In Thalland</a></h2>
+                                                        <h2 itemprop="headline"><a href="#" title="" itemprop="url">DOnation to Start an Organic Farm In Thalland</a></h2>
                                                     </div>
                                                 </td>
                                                 <td>
@@ -187,7 +187,7 @@
                                         </tbody>
                                     </table>
                                 </div><!-- Dontaion List -->
-                                <div class="dnt-pymnt-mthd">
+                                <!-- <div class="dnt-pymnt-mthd">
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12 col-lg-3">
                                             <div class="title3">
@@ -202,12 +202,12 @@
                                                     <span class="py-mth">
                                                         <input type="radio" name="pymnt-mthd" id="pymnt1" />
                                                         <label for="pymnt1">Credit Card</label>
-                                                    </span>
-                                                    <span class="py-mth">
+                                                    </span> -->
+                                                    <!-- <span class="py-mth">
                                                         <input type="radio" name="pymnt-mthd" id="pymnt2" />
-                                                        <label for="pymnt2">PayPal</label>
+                                                        <label for="pymnt2">P</label> -->
                                                     </span>
-                                                    <span class="py-mth">
+                                                    <!-- <span class="py-mth">
                                                         <input type="radio" name="pymnt-mthd" id="pymnt3" />
                                                         <label for="pymnt3">Bank Transfer</label>
                                                     </span>
@@ -225,15 +225,15 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <input type="text" placeholder="Card Verification Number" />
-                                                        </div>
+                                                            <input type="text" placeholder="Card Verification Number" /> -->
+                                                        <!-- </div>
                                                     </div>
                                                 </form>
                                             </div>
                                         </div>
                                     </div>
-                                </div><!-- Dontaion Payment Method -->
-                                <div class="prcnl-inf">
+                                </div>Dontaion Payment Method -->
+                                <!-- <div class="prcnl-inf">
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12 col-lg-3">
                                             <div class="title3">
@@ -250,10 +250,10 @@
                                                             <input type="text" placeholder="First Name" />
                                                             <input type="text" placeholder="Last Name" />
                                                             <input type="email" placeholder="Email Address" />
-                                                        </div>
+                                                        </div> -->
                                                         <div class="col-md-6">
-                                                            <textarea placeholder="Message"></textarea>
-                                                            <button type="submit" class="btn1">Contact Us Now</button>
+                                                            <!-- <textarea placeholder="Message"></textarea> -->
+                                                            <button onclick="paywithPaystack()" class="btn1">Donate Now</button>
                                                         </div>
                                                     </div>
                                                 </form>
@@ -504,7 +504,7 @@
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-lg-3">
                                 <div class="title3">
-                                    <span>We Need Your Help</span>
+                                    <!-- <span>We Need Your Help</span>
                                     <h4 itemprop="headline">Select Payment Method</h4>
                                 </div>
                             </div>
@@ -533,24 +533,33 @@
                                                     <select>
                                                         <option>Month Of Exp</option>
                                                         <option>Jan</option>
-                                                        <option>Fab</option>
+                                                        <option>Feb</option>
+                                                        <option>Mar</option>
+                                                        <option>Apr</option>
+                                                        <option>May</option>
+                                                        <option>Jun</option>
+                                                        <option>Jul</option>
+                                                        <option>Aug</option>
+                                                        <option>Sep</option>
+                                                        <option>Nov</option>
+                                                        <option>Dec</option>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <input type="text" placeholder="Card Verification Number" />
+                                                <input type="text" placeholder="CVC" />
                                             </div>
                                         </div>
                                     </form>
                                 </div>
                             </div>
                         </div>
-                    </div><!-- Dontaion Payment Method -->
-                    <div class="prcnl-inf">
+                    </div>Dontaion Payment Method -->
+                    <!-- <div class="prcnl-inf">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-lg-3">
-                                <div class="title3">
-                                    <span>Your Information</span>
+                                <div class="title3"> -->
+                                    <!-- <span>Your Information</span>
                                     <h4 itemprop="headline">Personal Info</h4>
                                     <p itemprop="description">Ded ut perspiciatis, ude omnis iste accusan lauda ntium totam rem.</p>
                                 </div>
@@ -565,8 +574,8 @@
                                                 <input type="email" placeholder="Email Address" />
                                             </div>
                                             <div class="col-md-6">
-                                                <textarea placeholder="Message"></textarea>
-                                                <button type="submit" class="btn1">Contact Us Now</button>
+                                                <textarea placeholder="Message"></textarea> -->
+                                                <button onclick="paywithPaystack()" class="btn1">Donate Now</button>
                                             </div>
                                         </div>
                                     </form>
@@ -587,5 +596,7 @@
     <script src="js/slim-scrollbar.min.js" type="text/javascript"></script><!-- Scroll Bar -->
     <script src="js/jquery.downCount.js" type="text/javascript"></script><!-- Down Count -->
     <script src="js/script.js" type="text/javascript"></script><!-- Custom -->
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
